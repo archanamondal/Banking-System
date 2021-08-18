@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+
+}
+
+.jumbotron{
+    background-image: url('../img/bg.jpg');
+    height: 100vh;
+    position:relative;
+    background-size: cover;
+    background-position: center;
+    color: rgb(24, 17, 17);
+    border-radius: 0px!important;
+}
+
+.jumbotron h1{
+    margin: 20px 20px;
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+.jumbotron p{
+    font-size: 20px;
+    color: black;
+}
+
+.intro{
+    padding-top: 150px;
+}
